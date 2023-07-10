@@ -1,0 +1,44 @@
+html, body {
+    background-image: url(img/dark.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: gray;
+}
+
+.navbar ul {
+    line-height: 35px;
+    text-align: center;
+}
+
+.navbar ul .logo {
+    margin-right: 100px;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+    color: lightblue;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: tomato;
+}
